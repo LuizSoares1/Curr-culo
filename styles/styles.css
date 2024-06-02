@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  background: grey;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  background: #fff;
+  margin: 30px 0px;
+}
+
+.sidebar {
+  background: #0A3368;
+  color: white;
+  max-width: 350px;
+}
+
+.infotitulo {
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 0;
+}
+.img img {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid #fff;
+}
+
+.infos {
+  padding: 0 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.list-linksmedia {
+  list-style-type: none;
+}
+
+.linksmedia {
+  list-style-type: none;
+  background: white;
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.linksmedia svg {
+  color: black;
+  width: 1.7em;
+  height: 1.7em;
+}
+
+.dados-pessoais-lista {
+  padding-left: 10px;
+}
+
+.dados-pessoais-li {
+  list-style: none;
+  margin: 30px 0;
+}
+
+.dados-pessoais-text-titulo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.barra-idioma {
+  width: 90%;
+  height: 8px;
+  background: white;
+  border-radius: 30px;
+}
+
+.infos hr {
+  margin: 40px 0;
+}
+
+.content {
+  margin: 0 30px;
+}
+
+.InfoPessoal-Local {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-area h2 {
+  color: #0A3368;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.nome-area h3 {
+  color: grey;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.dados-locais-telefone-email {
+  margin-left: 0;
+}
+.dados-locais-telefone-email ul {
+  align-items: center;
+  padding-left: 0;
+}
+
+.dados-locais-telefone-email-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dados-locais-telefone-email-li p {
+  color: grey;
+}
+
+.img-dados-locais {
+  background: #0A3368;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.img-dados-locais svg {
+  color: white;
+  width: 60px;
+  height: 18px;
+}
+
+.exp-profissional-div {
+  margin-top: 3em;
+}
+.exp-profissional-div h2 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+.experiencias-de-trabalho {
+  display: flex;
+}
+.experiencias-de-trabalho p {
+  color: grey;
+}
+
+.container-trab-xp {
+  margin-top: 2.5em;
+}
+
+.empregos-exp {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+}
+.empregos-exp ::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+}
+.empregos-exp ::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 4px;
+  width: 1px;
+  height: 95%;
+  background: #000;
+}
+.empregos-exp h3 {
+  color: #0A3368;
+}
+.empregos-exp p {
+  color: grey;
+}
+
+.empregos-atuacao {
+  padding: 0px 30px;
+}
+.empregos-atuacao h3 {
+  color: #0A3368;
+}
+.empregos-atuacao a {
+  text-decoration: none;
+  color: #0A3368;
+}
+
+.data-trabalho {
+  color: grey;
+}
+
+.educacao-div {
+  margin-top: 5em;
+  padding-bottom: 20px;
+}
+.educacao-div h2 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+.linkedin :hover {
+  color: #0A66C2;
+}
+
+.github :hover {
+  color: #7D46DB;
+}
+
+.whatsapp :hover {
+  color: #27D045;
+}
+
+.index-sidebar-mobile {
+  display: none;
+  background: #0A3368;
+  color: white;
+}
+
+.blose-btn {
+  position: absolute;
+  font-size: 26px;
+  top: 40px;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar-mobile {
+    width: 100%;
+  }
+  .sidebar-mobile h2 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
