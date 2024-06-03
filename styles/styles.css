@@ -290,4 +290,34 @@ body {
   .aboutme svg {
     font-size: 32px;
   }
+}
+@media (max-width: 850px) {
+  .empregos-exp h3 {
+    font-size: 24px;
+  }
+  .empregos-exp p {
+    margin: 0;
+  }
+  .empregos-exp ::before {
+    display: none;
+  }
+  .empregos-exp ::after {
+    display: none;
+  }
+  .experiencias-de-trabalho {
+    flex-direction: column;
+    border: 0.5px solid grey;
+    padding: 0 17px;
+    margin: 30px 0;
+    border-radius: 10px;
+  }
+  .empregos-atuacao {
+    padding: 0px;
+  }
+  .empregos-atuacao h3 {
+    color: black;
+  }
+  .nome-area h2 {
+    font-size: 2em;
+  }
 }/*# sourceMappingURL=styles.css.map */
