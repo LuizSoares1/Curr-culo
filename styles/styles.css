@@ -245,12 +245,23 @@ body {
   color: white;
 }
 
-.blose-btn {
+.close-btn {
   position: absolute;
-  font-size: 26px;
+  font-size: 15px;
   top: 40px;
   right: 20px;
   cursor: pointer;
+  color: #0A3368;
+  background: #fff;
+  border: none;
+  border-radius: 100%;
+  font-weight: 700;
+  width: 30px;
+  height: 30px;
+}
+
+.aboutme {
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -262,5 +273,21 @@ body {
   }
   .sidebar-mobile h2 {
     text-align: center;
+  }
+  .aboutme {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: #0A3368;
+    border: 0px;
+    border-radius: 30px;
+    padding: 5px 10px;
+  }
+  .aboutme svg {
+    font-size: 32px;
   }
 }/*# sourceMappingURL=styles.css.map */
